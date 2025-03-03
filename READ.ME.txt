@@ -1,0 +1,36 @@
+# Running the code in R Studio  #
+
+## Installation 
+
+We performed the following analyses using R Studio (R version 4.2.2) and Spyder Python (version 3.9).
+
+To install:
+
+- R Studio (R version 4.2.2): https://cran.r-project.org/bin/windows/base/old/4.2.2/ (exe file in the folder)
+
+
+Follow the instructions on the website to install the sofwares. The installation time should be less than 5 minutes.
+
+## Instruction to run the data in R Studio
+
+1. Open R Studio
+
+2. Click on File (in the tool bar), Open file. It will open a window with folders. Go to the folder where the R script is and click on the R script (Open). Now the script is loaded into the R console.
+
+3. Set up the working directory: Session --> Set Working directory --> Choose Directory, then go to the folder where the input files are and click on Open.
+
+4. Install packages and load them: go the the row where the code includes "install.packages" and "library" and do Ctrl R do load the code.
+
+5. To load each row do Ctrl R.
+
+All analysis and Models are named similarly than in the manuscript.
+
+
+
+All datasets used to do the analyses are attached with this file.
+
+All expected run time should be under 5 minutes except for Model 2 (1 hour).
+
+## Reproduction instructions
+
+Information to reproduce the results are present in the section Material and Method of the manuscript.
